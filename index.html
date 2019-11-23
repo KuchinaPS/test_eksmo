@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test_eksmo</title>
+</head>
+<body>
+<header class="main-header">
+    <div class="main-header__container">
+        <div class="wrapper main-header__wrapper ">
+            <div class="main-header__logo">
+                <a href="#" class="main-header__logo-link">
+                    <img src="img/Logotype.png" width="150" height="60" alt="Логотип">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-nav__list site-nav">
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Магазин</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Книги</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Серии</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Авторы</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Новости</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Новинки</a></li>
+                    <li class="site-nav__item site-nav__item__current"><a class="site-nav__link">Сообщества</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-nav__search"><a href="#" class="user-nav__link" aria-label="Поиск"></a></div>
+        </div>
+    </div>
+    <div class="sub-nav">
+        <div class="sub-nav__wrapper wrapper">
+            <ul class="sub-nav__list sub-nav">
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Фантастика</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Любовь</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Детектив</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Классика</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Красота</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Еда</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Семья</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Бизнес</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Дети</a></li>
+                <li class="sub-nav__item"><a href="#" class="sub-nav__link">Учеба</a></li>
+            </ul>
+            <div class="sub-nav__enter"><a href="#" class="sub-nav__link sub-nav__link__enter">Вход</a></div>
+        </div>
+    </div>
+</header>
+<main class="main-page">
+    <div class="wrapper">
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+            <li class="breadcrumbs__item breadcrumbs__item__current"><a href="#">Новости</a></li>
+        </ul>
+    </div>
+    <div class="main-page__wrapper">
+        <h1 class="visually-hidden">Новости Эксмо</h1>
+        <section class="test">
+            <div class="test__img">
+                <img src="img/header_pic.jpg" width="720" height="511" alt="Картинка теста: Дарт Вейдер">
+            </div>
+            <h2 class="test__title">Узнай на какой ты стороне</h2>
+            <p class="test__date">24 июля 2015, 20:15</p>
+            <div class="test_sub">Сможете отличить настоящие цитаты из романа Эрики Джеймс «Грей» от придуманных?
+                Проверьте себя с помощью нашего теста и узнайте, сколько оттенков серого в вас!
+            </div>
+            <ul class="test__social social-list">
+                <li class="social-list__item social-list__item__fb"><a href="#" class="social-list__link"><img
+                        src="img/ion_fb.png" width="73" height="38" alt="Соц.сеть Фейсбук"></a>
+                </li>
+                <li class="social-list__item social-list__item__tw"><a href="#" class="social-list__link"
+                                                                       aria-label="Твиттер"><img src="img/icon_tw.png"
+                                                                                                 width="42" height="38"
+                                                                                                 alt="Соц.сеть Твиттер"></a>
+                </li>
+                <li class="social-list__item social-list__item__vk"><a href="#" class="social-list__link"
+                                                                       aria-label="Вконтакте"><img
+                        src="img/icon_vk.png" width="63" height="38" alt="Соц.сеть Вконтакте"></a>
+                </li>
+                <li class="social-list__item social-list__item__od"><a href="#" class="social-list__link"
+                                                                       aria-label="Одноклассники"><img
+                        src="img/icon_odn.png" width="42" height="38" alt="Соц.сеть Одноклассники"></a></li>
+                <li class="social-list__item social-list__item__gg"><a href="#" class="social-list__link"
+                                                                       aria-label="Гугл"><img src="img/icon_google.png"
+                                                                                              width="42" height="38"
+                                                                                              alt="Соц. сеть Гугл"></a>
+                </li>
+            </ul>
+            <form class="form-test">
+                <fieldset class="form-test__question question-one">
+                    <legend class="test__title">1. Укажите робота R2-D2</legend>
+                    <div class="container">
+                        <input class="question__input" type="radio" id="option1" name="question-one">
+                        <label class="question__label question__label__true" for="option1">
+                            <span class="question__img question__img__true">
+                                <img src="img/test_pic1.png" width="340" height="340" alt="Вариант ответа 1 ">
+                            </span>
+                        </label>
+                        <input class="question__input" type="radio" id="option2" name="question-one" checked>
+                        <label class="question__label question__label__false" for="option2">
+                            <span class="question__img question__img__false">
+                                <img src="img/test_pic2.png" width="340" height="340" alt="Вариант ответа 2 ">
+                            </span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-test__question question-two">
+                    <legend class="test__title">2. Какой шлем носили штурмовики?</legend>
+                    <div class="container">
+                        <input class="question__input" type="radio" id="option3" name="question-two" checked>
+                        <label class="question__label question__label__true" for="option3">
+                            <span class="question__img question__img__true">
+                                <img src="img/test_pic3.png" width="340" height="340" alt="Вариант ответа 1 ">
+                            </span>
+                        </label>
+                        <input class="question__input" type="radio" id="option4" name="question-two">
+                        <label class="question__label question__label__not" for="option4">
+                            <span class="question__img">
+                                <img src="img/test_pic4.png" width="340" height="340" alt="Вариант ответа 2 ">
+                            </span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-test__question question-three">
+                    <legend class="test__title">3. Кто построил «звезду смерти»?</legend>
+                    <div class="form-test__img">
+                        <img src="img/test_pic5.png" width="721" height="511"
+                             alt="Картинка вопроса: Кто придумал «Звезду смерти»">
+                    </div>
+                    <div class="container form-test__container">
+                        <input class="question__input" type="radio" id="option5" name="question-three">
+                        <label class="question-three__label question-three__label__not" for="option5">Роботы</label>
+                        <input class="question__input" type="radio" id="option6" name="question-three" checked>
+                        <label class="question-three__label question-three__label__true" for="option6">Вейдер</label>
+                        <input class="question__input" type="radio" id="option7" name="question-three">
+                        <label class="question-three__label question-three__label__not" for="option7">Бог</label>
+                        <input class="question__input" type="radio" id="option8" name="question-three">
+                        <label class="question-three__label question-three__label__not" for="option8">Какую
+                            звезду?</label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-test__question question-four">
+                    <legend class="test__title">4. Основное оружие джедая?</legend>
+                    <div class="container">
+                        <input class="question__input" type="radio" id="option9" name="question-four">
+                        <label class="question__label" for="option9">
+                            <span class="question__img ">
+                                <img src="img/test_pic6.png" width="340" height="340" alt="Вариант ответа 1 ">
+                            </span>
+                        </label>
+                        <input class="question__input" type="radio" id="option10" name="question-four">
+                        <label class="question__label" for="option10">
+                            <span class="question__img">
+                                <img src="img/test_pic7.png" width="340" height="340" alt="Вариант ответа 2">
+                            </span>
+                        </label>
+                    </div>
+                </fieldset>
+                <button class=" visually-hidden test__button">Получить результат</button>
+            </form>
+            <div class="test__result">
+                <h3 class="test__title test__title-result">Ваш Результат:</h3>
+                <div class="test__img">
+                    <img src="img/test_pic8.jpg" width="721" height="512" alt="Результат">
+                </div>
+                <div class="wrap">
+                    <h3 class="test__result-title">Штурмовик</h3>
+                    <div class="test__desc">
+                        <span>Штурмовики</span> — элитные воины Галактической Империи. Как звёздные
+                        разрушители типа «Имперский» и TIE истребители, они являлись
+                        олицетворением абсолютной власти Императора Палпатина. Эти безликие служители Нового порядка
+                        силой и
+                        жестокостью несли волю Императора в тысячи звёздных систем по всей Галактике.
+                    </div>
+                    <p class="test__subs">Не забудьте поделиться результатом с друзьями:</p>
+                    <ul class="test__social social-list">
+                        <li class="social-list__item social-list__item__fb"><a href="#" class="social-list__link"><img
+                                src="img/ion_fb.png" width="73" height="38" alt="Соц.сеть Фейсбук"></a>
+                        </li>
+                        <li class="social-list__item social-list__item__tw"><a href="#" class="social-list__link"
+                                                                               aria-label="Твиттер"><img
+                                src="img/icon_tw.png"
+                                width="42" height="38"
+                                alt="Соц.сеть Твиттер"></a>
+                        </li>
+                        <li class="social-list__item social-list__item__vk"><a href="#" class="social-list__link"
+                                                                               aria-label="Вконтакте"><img
+                                src="img/icon_vk.png" width="63" height="38" alt="Соц.сеть Вконтакте"></a>
+                        </li>
+                        <li class="social-list__item social-list__item__od"><a href="#" class="social-list__link"
+                                                                               aria-label="Одноклассники"><img
+                                src="img/icon_odn.png" width="42" height="38" alt="Соц.сеть Одноклассники"></a></li>
+                        <li class="social-list__item social-list__item__gg"><a href="#" class="social-list__link"
+                                                                               aria-label="Гугл"><img
+                                src="img/icon_google.png"
+                                width="42" height="38"
+                                alt="Соц. сеть Гугл"></a>
+                        </li>
+                    </ul>
+                    <button class="test__button" type="submit">Пройти заново</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="subscribe">
+        <div class="subscribe__wrapper">
+            <h2 class="subscribe__title">Оставайтесь на связи!</h2>
+            <p class="subscribe__desc">Подпишитесь на рассылку и будьте в курсе последних
+                книжных новинок издательства</p>
+            <form class="subscribe__form form">
+                <input class="form__email" type="email" placeholder="Введите ваш email" id="email">
+                <label class="visually-hidden" for="email">Ваш email</label>
+                <button class="form__button" type="submit">Подписаться</button>
+            </form>
+        </div>
+    </section>
+    <section class="news">
+        <div class="wrapper">
+            <h2 class="news__title">Новости по теме</h2>
+            <ul class="news__list">
+                <li class="news__item">
+                    <div class="news__img">
+                        <a href="#">
+                            <img src="img/event_img1.png" width="339" height="240" alt="Картинка статьи">
+                        </a>
+                    </div>
+                    <p class="news__heading">Читателям</p>
+                    <h3 class="news__article"><a href="#">Лев толстой или брогер простой?</a></h3>
+                    <time class="news__date" datetime="2015-06-24">24 июля 2015</time>
+                    <div class="news__desc">Пройдите наш специальный уникальный мегакрутой тест и узнайте, какой вы
+                        писатель
+                    </div>
+                </li>
+                <li class="news__item">
+                    <div class="news__img">
+                        <a href="#">
+                            <img src="img/event_img2.png" width="339" height="240" alt="Картинка статьи">
+                        </a>
+                    </div>
+                    <p class="news__heading">Книги</p>
+                    <h3 class="news__article"><a href="#">20 вопросов по<br> преступлению и<br> наказанию</a></h3>
+                    <time class="news__date" datetime="2015-06-24">24 июля 2015</time>
+                    <div class="news__desc">Писатель фантаст Олег Рой встретился с читателями в магазине «Книжный» и
+                        представил новую книгу.
+                    </div>
+                </li>
+                <li class="news__item">
+                    <div class="news__img">
+                        <a href="#">
+                            <img src="img/event_img3.png" width="339" height="240" alt="Картинка статьи">
+                        </a>
+                    </div>
+                    <p class="news__heading">Читателям</p>
+                    <h3 class="news__article"><a href="#">Tест про что-то там еще<br> вобщем пройдите</a></h3>
+                    <time class="news__date" datetime="2015-06-24">24 июля 2015</time>
+                    <div class="news__desc">29 июня 1900 года в Лионе родился известный французский писатель, поэт и
+                        профессиональный лётчик.
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="news__all">Все новости</a>
+        </div>
+    </section>
+    <section class="social">
+        <div class="wrapper social__wrapper">
+            <h2 class="social__title">Присоединяйтесь к нам</h2>
+            <ul class="social__list">
+                <li class="social__item social__item__vk">
+                    <a href="#"><img src="img/icon2_vk.png" width="114" height="22" alt="Соц.сеть Вконтакте">
+                        <p class="social__desc">читают 23 987 человек</p>
+                    </a>
+                </li>
+                <li class="social__item social__item__fb">
+                    <a href="#"><img src="img/icon2_fb.png" width="95" height="21" alt="Соц.сеть Фейсбук">
+                        <p class="social__desc">читают 3 765 человек</p>
+                    </a>
+                </li>
+                <li class="social__item social__item__tw">
+                    <a href="#"><img src="img/icon2_tw.png" width="113" height="23" alt="Соц.сеть Твиттер">
+                        <p class="social__desc">читают 3 657 человек</p>
+                    </a>
+                </li>
+                <li class="social__item social__item__inst">
+                    <a href="#"><img src="img/icon2_inst.png" width="134" height="30" alt="Соц.сеть Инстаграм">
+                        <p class="social__desc">читают 987 человек</p>
+                    </a>
+                </li>
+                <li class="social__item social__item__yt">
+                    <a href="#"><img src="img/icon2_youtb.png" width="77" height="32" alt="Видео хостинг Ютуб">
+                        <p class="social__desc">смотрят 987 человек</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="main-footer">
+    <div class="main-footer__wrapper wrapper">
+        <div class="footer__container container">
+            <div class="main-footer__nav main-footer__publish">
+                <h3 class="main-footer__title"> Издательство</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Эксмо сегодня</a></li>
+                    <li class="main-footer__item"><a href="#">История</a></li>
+                    <li class="main-footer__item"><a href="#">Миссия и ценности</a></li>
+                    <li class="main-footer__item"><a href="#">Социальные проекты</a></li>
+                    <li class="main-footer__item"><a href="#">Редакции</a></li>
+                    <li class="main-footer__item"><a href="#">Партнеры</a></li>
+                </ul>
+            </div>
+            <div class="main-footer__nav main-footer__smi">
+                <h3 class="main-footer__title"> Для СМИ</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Прес-релизы</a></li>
+                    <li class="main-footer__item"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class=" main-footer__nav main-footer__readers">
+                <h3 class="main-footer__title">Читателям</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Часто задаваемые вопросы</a></li>
+                    <li class="main-footer__item"><a href="#">Как купить книгу</a></li>
+                    <li class="main-footer__item"><a href="#">Как написать рецензию</a></li>
+                    <li class="main-footer__item"><a href="#">Призовой фонд</a></li>
+                    <li class="main-footer__item"><a href="#">Словарь читателя</a></li>
+                    <li class="main-footer__item"><a href="#">Тесты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-footer__mistakes">
+            <h3 class="main-footer__title">Нашли ошибку</h3>
+            <form class="form-mist">
+                <label class="visually-hidden" for="footer-em">Ваш email</label>
+                <input class="form-mist__input" type="email" placeholder="Введите ваш e-mail" id="footer-em">
+                <textarea class="form-mist__text"
+                          placeholder="Пожалуйста напишите нам об ошибке, найденной на сайте."></textarea>
+                <button class="form-mist__button" type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="container-row">
+            <div class="main-footer__nav main-footer__job">
+                <h3 class="main-footer__title"> Работа в Эксмо</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Вакансии</a></li>
+                    <li class="main-footer__item"><a href="#">Обучение и развитие</a></li>
+                    <li class="main-footer__item"><a href="#">Работа для фрилансеров</a></li>
+                </ul>
+            </div>
+            <div class="main-footer__nav main-footer__partners">
+                <h3 class="main-footer__title"> Партнерам</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Корпоративные клиентам</a></li>
+                    <li class="main-footer__item"><a href="#">Библиотекам</a></li>
+                    <li class="main-footer__item"><a href="#">Где заказать книги</a></li>
+                </ul>
+            </div>
+            <div class="main-footer__nav main-footer__authors">
+                <h3 class="main-footer__title">Авторам</h3>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item"><a href="#">Как издать книгу</a></li>
+                    <li class="main-footer__item"><a href="#">Форум</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-bottom">
+            <div class=" main-footer__inf">
+                <p class="main-footer__lic">Лицензия № 46097</p>
+                <address>
+                    Издательство «ЭКСМО»<br>
+                    123308, г. Москва, ул. Зорге, д.1.
+                    Телефон: +7 (495) 411-68-86.
+                </address>
+            </div>
+            <div class=" main-footer__save">
+                <img src="img/save.png" width="178" height="74" alt="Защита АЗАПИ">
+            </div>
+            <div class="main-footer__nav main-footer__logo">
+                <a href="#">
+                    <img src="img/logofoter.png" width="161" height="47" alt="Логотип">
+                </a>
+            </div>
+            <p class=" main-footer__copyright">© Эксмо, 2015.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
